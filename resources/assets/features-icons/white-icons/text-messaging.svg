@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="46px" viewBox="0 0 32 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Text Messaging</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.4453125%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F2B031" offset="0%"></stop>
+            <stop stop-color="#F04C23" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-184.000000, -162.000000)">
+            <g id="Stacked-Group" transform="translate(173.000000, 148.000000)">
+                <g id="Text-Messaging" transform="translate(0.000000, 10.000000)">
+                    <rect id="24pt-Bounding-Box" x="0" y="0" width="54" height="54"></rect>
+                    <g id="Fill" transform="translate(11.000000, 4.000000)" fill="#FFFFFF">
+                        <path d="M26.5000004,0.50000085 L5.5000003,0.50000085 L5.5,0.50000085 C2.6005125,0.50000099 0.25,3.0184071 0.25,6.1250008 C0.25,6.1250008 0.25,6.1250008 0.25,6.1250008 L0.25,39.8750008 L0.25,39.875 C0.2499996,42.9815937 2.6005125,45.5 5.5,45.5 L26.5000002,45.5 L26.5,45.5 C29.3994875,45.5000001 31.75,42.9815937 31.75,39.875 L31.75,6.125 C31.75,3.01840625 29.3994875,0.5 26.5,0.5 L26.5000004,0.50000085 Z M27.25,38 C27.25,39.656854 25.9908006,41 24.4375,41 L7.5625001,41 C6.0091994,40.9999999 4.75,39.656854 4.75,38 C4.75,38 4.75,38 4.75,38 L4.75,7.9999996 L4.75,8 C4.7499998,6.343146 6.0091994,5 7.5625,5 L10.375,5 L10.375,7 L10.375,7.0000003 C10.3750001,8.1045703 11.2144656,9.0000004 12.25,9.0000004 L19.7499999,9.0000004 C20.7855342,9.0000004 21.6249998,8.1045703 21.6249998,7.0000003 L21.6249998,5.0000003 L24.4374998,5.0000003 C25.9908004,5.00000043 27.2499997,6.3431463 27.2499997,8.0000003 L27.25,38 Z" id="path-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

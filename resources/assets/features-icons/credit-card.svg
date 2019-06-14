@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="36px" viewBox="0 0 46 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>004527D3-9942-4424-9CE1-F5794A8668B6</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="78.4453125%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F2B031" offset="0%"></stop>
+            <stop stop-color="#F04C23" offset="100%"></stop>
+        </linearGradient>
+        <path d="M4.50000016,40.9999995 L4.50000016,41.0000001 C4.50000048,43.20914 6.17893329,45 8.25000016,45 L45.7500002,45 L45.75,45 C47.8210687,45.0000001 49.5,43.20914 49.5,41.0000001 L49.5,25.0000003 L4.5,25.0000003 L4.50000016,40.9999995 Z M45.7500002,9 L8.25000016,9 L8.25,9 C6.17893125,9.0000001 4.5,10.790862 4.5,12.9999999 C4.5,12.9999999 4.5,12.9999999 4.5,12.9999999 L4.5,16.9999999 L49.5,16.9999999 L49.5,12.9999999 C49.5,10.79086 47.8210669,9 45.75,9 L45.7500002,9 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-Pricing" transform="translate(-691.000000, -359.000000)">
+            <g id="Sections-Stacked">
+                <g id="Pricing-Hero">
+                    <g id="#2-Active-Copy-2" transform="translate(405.000000, 350.000000)">
+                        <g id="Stacked-Group">
+                            <g id="Icon/Payment" transform="translate(282.000000, 0.000000)">
+                                <rect id="24pt-Bounding-Box" x="0" y="0" width="54" height="54"></rect>
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <use id="Fill" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

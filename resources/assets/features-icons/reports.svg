@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Reports</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.4453125%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F2B031" offset="0%"></stop>
+            <stop stop-color="#F04C23" offset="100%"></stop>
+        </linearGradient>
+        <path d="M13.5,6.75 L13.5,38.8124992 C13.5,39.7444801 12.744481,40.4999992 11.8125,40.4999992 C10.8805191,40.4999992 10.125,39.7444801 10.125,38.8124992 L10.125,25.3124995 L6.75,25.3124995 L6.75,40.4999992 L6.75,40.5000002 C6.75000056,44.2279238 9.77207627,47.25 13.5,47.25 L40.5000002,47.25 L40.5,47.25 C44.2279237,47.2500002 47.25,44.2279238 47.25,40.5000002 L47.25,6.75 L13.5,6.75 Z M38.8125002,40.4999992 L21.9375001,40.4999992 C21.0055191,40.4999991 20.25,39.7444801 20.25,38.8124992 C20.2500001,37.8805183 21.0055191,37.1249992 21.9375,37.1249992 L38.8125002,37.1249992 C39.744481,37.1249992 40.5000001,37.8805183 40.5000001,38.8124992 C40.5000001,39.7444801 39.744481,40.4999992 38.8125001,40.4999992 L38.8125002,40.4999992 Z M38.8125002,33.7499993 L21.9375001,33.7499993 C21.0055191,33.7499993 20.25,32.9944803 20.25,32.0624994 C20.2500001,31.1305184 21.0055191,30.3749994 21.9375,30.3749994 L38.8125002,30.3749994 C39.7444812,30.3749995 40.5000002,31.1305184 40.5000002,32.0624994 C40.5000002,32.9944803 39.7444812,33.7499993 38.8125002,33.7499993 Z M40.5000002,25.3124995 L20.2500001,25.3124995 L20.2500001,13.4999998 L40.5000002,13.4999998 L40.5000002,25.3124995 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-Features" transform="translate(-519.000000, -566.000000)">
+            <g id="Hero">
+                <g id="Hero-Content" transform="translate(204.000000, 184.000000)">
+                    <g id="Feature-Icons-Group" transform="translate(0.000000, 204.000000)">
+                        <g id="Feature-Icons" transform="translate(64.000000, 48.000000)">
+                            <g id="Feature-Icons-Row-2" transform="translate(0.000000, 124.000000)">
+                                <g id="Components/Features/Icons-Copy" transform="translate(181.000000, 0.000000)">
+                                    <g id="Icon/News" transform="translate(64.000000, 0.000000)">
+                                        <rect id="24pt-Bounding-Box" x="0" y="0" width="54" height="54"></rect>
+                                        <mask id="mask-3" fill="white">
+                                            <use xlink:href="#path-2"></use>
+                                        </mask>
+                                        <use id="Fill" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
