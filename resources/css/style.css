@@ -1093,7 +1093,9 @@ footer {
     padding: 0;
   }
 
-
+  .feature-text h2 {
+    font-size: 38px;
+  }
 
   .learn-more-card {
     display: none;
