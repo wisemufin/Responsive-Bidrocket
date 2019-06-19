@@ -900,3 +900,72 @@ footer {
     margin-top: 11vw;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 40px;
+  }
+
+  .hero-text {
+    padding-top: 15.2vw;
+  }
+
+  .hero-card {
+    width: 80.66vw;
+  }
+
+  .card-text-container {
+    width: 70.8472vw;
+    padding: 3.33vw;
+  }
+
+  .card-text-container h1 {
+    font-size: 3.4vw;
+    width: 57.66vw;
+  }
+
+  .card-text-container h2 {
+    font-size: 2.2vw;
+    width: 100%;
+    line-height: 16px;
+  }
+
+  .support-section h1 {
+    font-size: 3.4vw;
+  }
+
+  .support-section h2 {
+    font-size: 2.2vw;
+    line-height: 16px;
+  }
+
+  .support-icon img {
+    height: 12.33vw;
+    width: 12.33vw;
+  }
+
+  .face-header {
+    font-size: 2vw;
+  }
+
+  .face-subheader {
+    width: 19.472vw;
+    font-size: 1.8vw;
+  }
+
+  .external-support-section h2 a {
+    font-size: 2.22vw;
+    line-height: 16px;
+  }
+
+  .external-support-section h2 {
+    font-size: 2.22vw;
+    line-height: 16px;
+  }
+
+  .get-started-button {
+    height: 5vw;
+    font-size: 1.8vw;
+    letter-spacing: .5px;
+  }
+}
