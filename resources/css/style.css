@@ -994,7 +994,7 @@ footer {
   }
 
   .feature-text {
-    padding: 5%;
+    padding: 5% 0;
     flex-direction: column;
     text-align: center;
     align-items: center;
