@@ -927,6 +927,10 @@ footer {
     font-size: 24px;
   }
 
+  .hero-text h1 {
+    font-size: 7.125vw;
+  }
+
   .hero-text {
     padding-top: 15.2vw;
   }
@@ -963,17 +967,22 @@ footer {
   }
 
   .support-section h1 {
-    font-size: 3.4vw;
+    font-size: 4vw;
   }
 
   .support-section h2 {
-    font-size: 2.2vw;
+    font-size: 2.5vw;
+    width: 75%;
     line-height: 16px;
   }
 
   .support-icon img {
     height: 12.33vw;
     width: 12.33vw;
+  }
+
+  .special-padding {
+    margin-right: 12.22vw;
   }
 
   .face-header {
@@ -985,13 +994,18 @@ footer {
     font-size: 1.8vw;
   }
 
+  .external-support-section h1 {
+    font-size: 4vw;
+  }
+
   .external-support-section h2 a {
-    font-size: 2.22vw;
+    font-size: 2.5vw;
     line-height: 16px;
   }
 
   .external-support-section h2 {
-    font-size: 2.22vw;
+    font-size: 2.5vw;
+    width: 75%;
     line-height: 16px;
   }
 
