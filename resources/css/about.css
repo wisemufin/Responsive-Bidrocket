@@ -116,6 +116,10 @@ nav span a:hover {
   color: #FFFFFF;
 }
 
+#hamburger {
+  font-size: 32px;
+}
+
 /* LARGE DEVICE MEDIA QUERY */
 @media only screen and (max-width: 1200px) {
   nav span a {
@@ -209,6 +213,7 @@ nav span a:hover {
   height: 42.361vw;
   width: 100%;
   position: relative;
+  top: 20px;
 }
 
 .webp .hero-image {
@@ -219,6 +224,7 @@ nav span a:hover {
   height: 42.361vw;
   width: 100%;
   position: relative;
+  top: 20px;
 }
 
 .hero-text {
@@ -247,8 +253,7 @@ nav span a:hover {
   /* align-items: center; */
   width: 1032px;
   width: 71.6666vw;
-  height: 425px;
-  height: 29.5138vw;
+  height: auto;
   background-color: #FFFFFF;
   margin: 0 auto;
   margin-top: 64px;
@@ -266,7 +271,7 @@ nav span a:hover {
   height: 232px;
   height: 16.11vw;
   padding: 48px 64px 0px 64px;
-  padding: 3.33vw 4.44vw 0vw 4.44vw;
+  padding: 3.33vw;
   margin-bottom: 44px;
   margin-bottom: 3.055vw;
 }
@@ -303,7 +308,7 @@ nav span a:hover {
   display: flex;
   justify-content: center;
   margin-top: -80px;
-  margin-top: -5.55vw;
+  margin-top: -9.55vw;
   padding-left: 400px;
   padding-left: 27.77vw;
 }
@@ -801,6 +806,10 @@ footer {
     font-size: 5.125vw;
   }
 
+  .card-text-container {
+    height: auto;
+  }
+
   .card-text-container h1 {
     font-size: 3.22vw;
     width: 54.66vw;
@@ -813,7 +822,8 @@ footer {
   }
 
   .rocket-box img {
-    height: 16.27vw;
+    display: none;
+    height: 18.27vw;
   }
 
   .support-section {
@@ -903,7 +913,15 @@ footer {
 
 @media only screen and (max-width: 600px) {
   header {
-    height: 40px;
+    height: 30px;
+  }
+
+  .nav-logo a img {
+    height: 30px;
+  }
+
+  #hamburger {
+    font-size: 24px;
   }
 
   .hero-text {
@@ -916,7 +934,9 @@ footer {
 
   .card-text-container {
     width: 70.8472vw;
-    padding: 3.33vw;
+    padding: 4.4vw;
+    height: auto;
+    margin: 0;
   }
 
   .card-text-container h1 {
@@ -928,6 +948,11 @@ footer {
     font-size: 2.2vw;
     width: 100%;
     line-height: 16px;
+    letter-spacing: .5px;
+  }
+
+  .support-section {
+    margin-top: 27.527vw;
   }
 
   .support-section h1 {
@@ -967,5 +992,11 @@ footer {
     height: 5vw;
     font-size: 1.8vw;
     letter-spacing: .5px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .support-section {
+    margin-top: 33.527vw;
   }
 }
