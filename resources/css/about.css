@@ -822,7 +822,6 @@ footer {
   }
 
   .rocket-box img {
-    display: none;
     height: 18.27vw;
   }
 
@@ -949,6 +948,10 @@ footer {
     width: 100%;
     line-height: 16px;
     letter-spacing: .5px;
+  }
+
+  .rocket-box {
+    display: none;
   }
 
   .support-section {
