@@ -1000,3 +1000,9 @@ footer {
     margin-top: 33.527vw;
   }
 }
+
+@media all and (max-width: 425px) {
+  .support-section {
+    margin-top: 48.527vw;
+  }
+}
