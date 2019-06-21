@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <script src="modernizr.js"></script>
+  <link rel="stylesheet" type="text/css" href="resources/css/practice.css">
+  <script src="https://kit.fontawesome.com/abf5f6f4ff.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/iwf3osx.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BidRocket!</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" id="navbar">
+    <div class="header-logo">
+      <a href="#"><img id="logo" src="resources/assets/logo/color.svg" alt=""></a>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li class="menu-item"><a href="#">Our Story</a></li>
+        <li class="menu-item"><a href="#">Product Features</a></li>
+        <li class="menu-item"><a href="#">Pricing</a></li>
+        <li class="menu-item"><a href="#">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Content w/card and stars -->
+  <div class="content_container">
+    <img id="starry_night" src="resources/assets/backgrounds/features-background-min.png" alt="">
+    <div class="hero_content">
+      <h1 class="hero_header">Who is BidRocket?</h1>
+      <div class="hero_card">
+        <h3 class="hero_card_header header-color">We help non-profits grow by making fundraising easy and accessible</h3>
+        <p class="hero_card_text">
+          BidRocket&#39;s launch in 2019 is the evolution of over
+          20 years in the world of fundraising and software development.
+          Formerly called Auction Source Austin, our rebranding reflects a
+          new trajectory in the company history, allowing our team to reach beyond
+          the Austin market and serve nonprofits across the U.S.
+          so we can do more in more places.
+        </p>
+      </div>
+    </div>
+    <div class="support_container">
+      <h3 class="support_section_header header-color">Personalized one-on-one support</h3>
+      <h4 class="support_section_subheader">
+        BidRocket support technicians are committed to giving you personalized one-on-one
+        service to help you launch your event and make your fundraiser a success.
+      </h4>
+      <div class="avatar_container">
+        <div class="left_avatar">
+          <img src="resources/assets/about-icons/jeff.svg" alt="">
+          <h5 class="avatar_name header-color">Jeff C.</h5>
+          <h6 class="avatar_subheader">BidRocket Technincian</h6>
+        </div>
+        <div class="right_avatar">
+          <img src="resources/assets/about-icons/jayden.svg" alt="">
+          <h5 class="avatar_name header-color">Jayden O.</h5>
+          <h6 class="avatar_subheader">BidRocket Technincian</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
+  // NAV BAR HIDE ON SCROLL SCRIPT
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.top = "0";
+    } else {
+      document.getElementById("navbar").style.top = "-100px";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+  </script>
+</body>
+
+</html>
