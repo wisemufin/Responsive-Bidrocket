@@ -12,18 +12,44 @@
 </head>
 
 <body>
-  <!-- Header -->
-  <header class="header" id="navbar">
-    <div class="header-logo">
-      <a href="#"><img id="logo" src="resources/assets/logo/color.svg" alt=""></a>
+  <!-- SIDE NAVIGATION MENU -->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="about">Our Story</a>
+    <a href="#">Product Features</a>
+    <a href="#">Support</a>
+    <a href="#">Blog</a>
+    <a href="#" id="sidenav-logIn">Log In</a>
+  </div>
+
+  <!-- STANDARD NAVIGATION BAR -->
+  <header id="navbar">
+    <div class="nav-logo">
+      <a href="#"><img src="resources/assets/logo/color.svg" alt=""></a>
     </div>
     <nav>
-      <ul class="menu">
-        <li class="menu-item"><a href="#">Our Story</a></li>
-        <li class="menu-item"><a href="#">Product Features</a></li>
-        <li class="menu-item"><a href="#">Pricing</a></li>
-        <li class="menu-item"><a href="#">Support</a></li>
-      </ul>
+      <span class="nav-link">
+        <a class="nav-hover" href="about">Our Story</a>
+      </span>
+      <span class="nav-link">
+        <a class="nav-hover" href="features">Product Features</a>
+      </span>
+      <span class="nav-link">
+        <a class="nav-hover" href="features">Pricing</a>
+      </span>
+      <span class="nav-link">
+        <a class="nav-hover" href="features">Support</a>
+      </span>
+      <span class="nav-link">
+        <a class="nav-hover" href="features">Blog</a>
+      </span>
+      <span class="nav-link">
+        <a href="#" id="log-in">Log In</a>
+      </span>
+      <span class="nav-link">
+        <a href="https://launch.bidrocket.com/signup" id="sign-up">Sign Up</a>
+      </span>
+      <span id="hamburger" style="font-size:32px;cursor:pointer" onclick="openNav()"><i class="far fa-bars"></i></span>
     </nav>
   </header>
 
@@ -44,6 +70,7 @@
         </p>
       </div>
     </div>
+    <img src="resources/assets/features-icons/rocket.svg" class="transition_rocket" alt="">
     <div class="support_container">
       <h3 class="support_section_header header-color">Personalized one-on-one support</h3>
       <h4 class="support_section_subheader">
@@ -52,12 +79,12 @@
       </h4>
       <div class="avatar_container">
         <div class="left_avatar">
-          <img src="resources/assets/about-icons/jeff.svg" alt="">
+          <img src="resources/assets/about-icons/jeff.svg" id="left-avatar-image" alt="">
           <h5 class="avatar_name header-color">Jeff C.</h5>
           <h6 class="avatar_subheader">BidRocket Technincian</h6>
         </div>
         <div class="right_avatar">
-          <img src="resources/assets/about-icons/jayden.svg" alt="">
+          <img src="resources/assets/about-icons/jayden.svg" id="right-avatar-image" alt="">
           <h5 class="avatar_name header-color">Jayden O.</h5>
           <h6 class="avatar_subheader">BidRocket Technincian</h6>
         </div>
