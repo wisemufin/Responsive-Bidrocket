@@ -200,7 +200,7 @@ nav span a:hover {
   display: grid;
   grid-template-columns: 10% 1fr 10%;
   position: relative;
-  grid-template-rows: auto auto auto 50px auto auto auto auto;
+  grid-template-rows: auto auto auto 50px auto auto auto 50px auto;
   top: 72px;
 }
 
@@ -431,7 +431,7 @@ nav span a:hover {
   grid-row: 7/8;
   grid-column: 1/-1;
   width: 100%;
-  height: 100vw;
+  height: 108vw;
 }
 
 .footer-container {
@@ -512,7 +512,7 @@ textarea#message.input {
   border: 1px solid #AFB4B5;
   border-radius: 4px;
   height: 90px;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
   padding: .694vw 0 .694vw 1.11vw;
   width: 42.22vw;
   font-size: 1rem;
@@ -548,14 +548,14 @@ input.send-button:active {
 
 .footer-card {
   grid-column: 2/3;
-  grid-row: 8/9;
+  grid-row: 9/10;
   background-color: white;
-  height: auto;
+  height: 30vw;
   position: relative;
   width: 70%;
   justify-self: center;
   padding: 30px;
-  top: -25vw;
+  top: -33vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -596,6 +596,51 @@ input.send-button:active {
 
 .card-button:active {
   background-image: linear-gradient(44deg, #D6441F, #D89D2C);
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  display: flex;
+  margin: 12vw auto 5vw auto;
+  grid-column: 1/-1;
+  grid-row: 9/10;
+}
+
+.left-column-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%
+}
+
+.left-column-footer img {
+  height: auto;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.right-column-footer {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-menu-column {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.footer-menu-column p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+.footer-menu-column a {
+  color: #364347;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 992px) {
@@ -666,6 +711,10 @@ input.send-button:active {
   }
 
   #starry_footer {
-    height: 106vw;
+    height: 115vw;
+  }
+
+  .footer-card {
+    top: -35vw;
   }
 }
