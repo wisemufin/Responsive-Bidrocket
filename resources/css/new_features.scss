@@ -1,0 +1,236 @@
+// App Fonts
+$font-stack: proxima-nova, sans-serif; // Font Colors
+$bidrocket-blue: #255a70;
+$bidrocket-hover-blue: #007db3;
+$bidrocket-orange: #E54921;
+$bidrocket-yellow: #F2B031;
+$bidrocket-linear-gradient: linear-gradient(44deg, #E54921, #f2b031);
+$bidrocket-linear-gradient-hover: linear-gradient(44deg, #FF3D0D, #FFB119);
+$bidrocket-green: #50b99f;
+$text-color: #364347; // Global Styling
+
+body {
+  font-family: $font-stack;
+  color: $text-color;
+  margin: 0;
+}
+// PRIMARY NAV BAR STYLING
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 0 2px 14px rgba(48,49,51,0.1);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  transition: top 0.4s;
+  width: 100%;
+  background-color: white;
+  z-index: 3;
+
+  div a img {
+    height: 50px;
+    transition: height 0.2s ease-in-out;
+    padding-left: 10px;
+  }
+
+  nav {
+    span {
+      margin: 0 10px;
+
+      a {
+        text-decoration: none;
+        color: $bidrocket-blue;
+        font-weight: 400;
+        font-size: 18px;
+      }
+
+      a:hover {
+        color: $bidrocket-hover-blue;
+      }
+    }
+
+    #log-in {
+      padding: 10px 36px;
+      border: 1px solid $bidrocket-green;
+      border-radius: 4px;
+      color: $bidrocket-green;
+      transition: padding 0.2s ease-in-out;
+    }
+
+    #log-in:hover {
+      color: white;
+      background-color: $bidrocket-green;
+    }
+
+    #sign-up {
+      color: white;
+      font-weight: bold;
+      padding: 11px 36px;
+      background-image: $bidrocket-linear-gradient;
+      border-radius: 4px;
+      transition: padding 0.2s ease-in-out;
+    }
+
+    #sign-up:hover {
+      background-image: $bidrocket-linear-gradient-hover;
+    }
+  }
+}
+// SIDEBAR LOGIN BUTTON STYLING
+
+#sidenav-logIn {
+  width: 115px;
+  padding: 6px 36px;
+  border: 1px solid #60b99f;
+  border-radius: 4px;
+  font-size: 18px;
+  margin: 20px auto 0;
+  text-align: center;
+  background-color: #60b99f;
+}
+
+#sidenav-logIn:hover {
+  background-color: #5fb99ebf;
+  border-color: #5fb99e00;
+  color: #FFFFFF;
+}
+
+#hamburger {
+  font-size: 32px;
+}
+// END PRIMARY NAVBAR STYLING
+// SECONDARY NAVBAR STATE QUERY FOR BETWEEN 1200PX AND 992PX
+@media only screen and (max-width: 1200px) {
+  header {
+    div a img {
+      height: 40px;
+    }
+
+    nav {
+      span {
+        a {
+          font-size: 18px;
+        }
+      }
+
+      #sign-up {
+        padding: 8px 20px;
+      }
+
+      #log-in {
+        padding: 7px 20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 993px) {
+  nav span a {
+    display: none;
+  }
+
+  #hamburger {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 993px) {
+  #hamburger {
+    display: none;
+  }
+}
+
+#hamburger {
+  color: #255a70;
+  transition: color 0.25s;
+  padding-right: 10px;
+}
+
+#hamburger:hover {
+  color: #f04c23;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  right: 0;
+  background-color: #01435c;
+  overflow-x: hidden;
+  transition: width 0.75s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  margin: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  width: fit-content;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sidenav a:hover {
+  color: #f04c23;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+// HERO STARS
+
+.no-webp .hero-image {
+  background: url("../assets/backgrounds/features-background-min.png") no-repeat center;
+  background-size: cover;
+  background-position: top;
+  height: 610px;
+  height: 42.361vw;
+  width: 100%;
+  position: relative;
+}
+
+.webp .hero-image {
+  background: url("../assets/backgrounds/features-background-min.webp") no-repeat center;
+  background-size: cover;
+  background-position: top;
+  height: 610px;
+  height: 42.361vw;
+  width: 100%;
+  position: relative;
+}
+// HERO TEXT
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 13.2vw;
+
+  h1 {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 24px;
+    color: white;
+    margin-top: 16px;
+    width: 65%;
+    line-height: 34px;
+    text-align: center;
+  }
+}
