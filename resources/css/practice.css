@@ -795,3 +795,25 @@ footer a {
     display: none;
   }
 }
+
+@media only screen and (max-width: 374px) {
+  .content_container {
+    grid-template-rows: auto 210px auto 50px auto auto auto 50px auto;
+  }
+
+  .hero_card {
+    padding: 0px;
+  }
+
+  .hero_card_header, .support_section_header, .secondary_support_header {
+    font-size: 6.667vw;
+  }
+
+  .hero_card_text, .support_section_subheader {
+    font-size: 3.667vw;
+  }
+
+  .support_section_header {
+    text-align: center;
+  }
+}
