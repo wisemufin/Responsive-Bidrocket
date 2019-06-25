@@ -774,7 +774,7 @@ footer a {
 
 @media only screen and (max-width: 600px) {
   .content_container {
-    grid-template-rows: auto 160px auto 50px auto auto auto 50px auto;
+    grid-template-rows: auto 160px auto 50px auto auto auto auto;
   }
 
   .hero_header {
@@ -794,26 +794,91 @@ footer a {
   .transition_rocket {
     display: none;
   }
+
+  .get-started-button {
+    height: 7vw;
+    width: 25vw;
+    color: white;
+    font-size: 2.5vw;
+    background-color: #50b99f;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .content_container {
-    grid-template-rows: auto 210px auto 50px auto auto auto 50px auto;
+    grid-template-rows: auto 210px auto 50px auto auto auto auto;
   }
 
   .hero_card {
     padding: 0px;
   }
 
-  .hero_card_header, .support_section_header, .secondary_support_header {
+  .hero_card_header, .support_section_header, .secondary_support_header,
+  .yellow-header, .form-header {
     font-size: 6.667vw;
   }
 
-  .hero_card_text, .support_section_subheader {
+  .hero_card_text, .support_section_subheader, .secondary_support_section_subheader,
+  .secondary_support_section_subheader a, .form-subheader {
     font-size: 3.667vw;
   }
 
   .support_section_header {
     text-align: center;
+  }
+
+  #left-avatar-image, #right-avatar-image {
+    width: 18vw;
+  }
+
+  .avatar_name {
+    font-size: 3.8vw;
+  }
+
+  .avatar_subheader {
+    font-size: 3vw;
+    text-align: center;
+  }
+
+  .get-started-button {
+    height: 9vw;
+    width: 30vw;
+    color: white;
+    font-size: 3.667vw;
+  }
+
+  .footer-rockets {
+    display: none;
+  }
+
+  .yellow-header {
+    line-height: 5.88vw;
+    width: 100%;
+  }
+
+  .footer-card {
+    display: none;
+  }
+
+  #starry_footer {
+    height: 135vw;
+  }
+
+  input#name.input, input#email.input, textarea#message.input {
+    width: 65.5vw;
+  }
+
+  input.send-button {
+    height: 7.77vw;
+    font-size: 3.662vw;
+    border-radius: 4px;
+  }
+
+  footer {
+    margin: 5vw auto;
+  }
+
+  .footer-menu-column-bidrocket, .footer-menu-column-support, .footer-menu-column-company {
+    font-size: 3.667vw;
   }
 }
