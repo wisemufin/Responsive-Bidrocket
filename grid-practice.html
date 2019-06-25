@@ -15,7 +15,7 @@
   <!-- SIDE NAVIGATION MENU -->
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="about">Our Story</a>
+    <a href="grid-practice">Our Story</a>
     <a href="#">Product Features</a>
     <a href="#">Support</a>
     <a href="#">Blog</a>
@@ -176,7 +176,7 @@
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
+    if (prevScrollpos > currentScrollPos || currentScrollPos === 0) {
       document.getElementById("navbar").style.top = "0";
     } else {
       document.getElementById("navbar").style.top = "-100px";

@@ -804,7 +804,7 @@ footer a {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 440px) {
   .content_container {
     grid-template-rows: auto 210px auto 50px auto auto auto auto;
   }
