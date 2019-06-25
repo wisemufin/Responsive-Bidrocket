@@ -600,37 +600,53 @@ input.send-button:active {
 
 /* FOOTER */
 footer {
-  width: 100%;
-  display: flex;
-  margin: 12vw auto 5vw auto;
-  grid-column: 1/-1;
-  grid-row: 9/10;
+	width: 100%;
+	display: grid;
+	margin: 12vw auto 5vw auto;
+	grid-template-columns: 40% 20% 20% 20%;
+	grid-row: 9/10;
+	grid-column: 1/-1;
 }
 
-.left-column-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40%
+footer a {
+  text-decoration: none;
+  color: #364347;
 }
 
-.left-column-footer img {
+.footer-logo {
+	grid-column: 1/2;
+	align-self: center;
+  justify-self: center;
+}
+
+.footer-logo img {
   height: auto;
-  width: 300px;
+  width: 23.715vw;
   margin: 0 auto;
 }
 
-.right-column-footer {
-  display: flex;
-  width: 60%;
-  justify-content: space-around;
-  align-items: center;
+.footer-menu-column-bidrocket {
+  grid-column: 2/3;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.25rem;
+  font-size: 1.581vw;
 }
 
-.footer-menu-column {
-  display: flex;
-  flex-direction: column;
-  padding: 20px;
+.footer-menu-column-support {
+  grid-column: 3/4;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.25rem;
+  font-size: 1.581vw;
+}
+
+.footer-menu-column-company {
+  grid-column: 4/5;
+  justify-self: center;
+  align-self: center;
+  font-size: 1.25rem;
+  font-size: 1.581vw;
 }
 
 .footer-menu-column p {
@@ -699,7 +715,11 @@ footer {
   }
 
   .footer-rockets {
-    margin-left: 13.2361vw;
+    margin-left: 12.2361vw;
+  }
+
+  .yellow-header {
+    margin-top: 15px;
   }
 
   .form-header {
@@ -716,5 +736,36 @@ footer {
 
   .footer-card {
     top: -35vw;
+    width: 75%
+  }
+
+  .footer-card-header {
+    font-size: 3.9vw;
+  }
+
+  .footer-card-text {
+    font-size: 2.3vw;
+    width: 90%;
+  }
+
+  footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .footer-menu-column-bidrocket {
+    font-size: 2vw;
+
+  }
+
+  .footer-menu-column-support {
+    font-size: 2vw;
+  }
+
+  .footer-menu-column-company {
+    font-size: 2vw;
   }
 }
