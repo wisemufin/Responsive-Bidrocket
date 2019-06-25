@@ -758,14 +758,40 @@ footer a {
 
   .footer-menu-column-bidrocket {
     font-size: 2vw;
-
+    grid-column: 1/2;
   }
 
   .footer-menu-column-support {
     font-size: 2vw;
+    grid-column: 2/3;
   }
 
   .footer-menu-column-company {
     font-size: 2vw;
+    grid-column: 3/4;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content_container {
+    grid-template-rows: auto 160px auto 50px auto auto auto 50px auto;
+  }
+
+  .hero_header {
+    font-size: 9.33vw;
+    margin-bottom: 2.602vw;
+  }
+
+  .hero_card_header, .support_section_header, .secondary_support_header {
+    font-size: 4.667vw;
+  }
+
+  .hero_card_text, .support_section_subheader, .secondary_support_section_subheader,
+  .secondary_support_section_subheader a {
+    font-size: 2.667vw;
+  }
+
+  .transition_rocket {
+    display: none;
   }
 }
