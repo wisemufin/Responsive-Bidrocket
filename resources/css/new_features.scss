@@ -784,6 +784,10 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
+  .content-container {
+    margin-top: 60px;
+  }
+
   .footer-background {
     height: 108.33vw;
   }
