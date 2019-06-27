@@ -688,6 +688,61 @@ header nav #sign-up:hover {
   padding-top: 0.20833vw;
 }
 
+@media only screen and (max-width: 992px) {
+  .footer-header {
+    font-size: 5.125vw;
+  }
+
+  .premium-features-container {
+    justify-content: space-around;
+  }
+
+  .premium-feature {
+    padding: 0px;
+  }
+  .premium-feature h3 {
+    font-size: 2.5vw;
+    font-weight: 600;
+    line-height: 2.6vw;
+  }
+
+  .premium-feature-header img {
+    height: 1.75vw;
+    width: 1.75vw;
+  }
+  .premium-feature-header h2 {
+    font-size: 1.75vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer-background {
+    height: 108.33vw;
+  }
+
+  .premium-feature {
+    align-items: center;
+    text-align: center;
+  }
+  .premium-feature h3 {
+    font-size: 3.5vw;
+    line-height: 3.5vw;
+    text-align: center;
+  }
+  .premium-feature h4 {
+    font-size: 2.66vw;
+    line-height: 3vw;
+    text-align: center;
+  }
+
+  .premium-feature-header img {
+    height: 2.75vw;
+    width: 2.75vw;
+  }
+  .premium-feature-header h2 {
+    font-size: 2.75vw;
+    font-weight: bold;
+  }
+}
 .footer-card {
   display: flex;
   flex-direction: column;
@@ -782,6 +837,32 @@ header nav #sign-up:hover {
 
 .get-started-button:active {
   background-image: linear-gradient(44deg, #D6441F, #D89D2C);
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-card {
+    width: 90%;
+    height: 41.2vw;
+  }
+  .footer-card h1 {
+    font-weight: 600;
+    line-height: 5.2vw;
+    font-size: 5.125vw;
+    width: 80%;
+  }
+  .footer-card h2 {
+    width: 80%;
+    font-size: 2.66vw;
+    line-height: 2.7vw;
+    margin-bottom: 5vw;
+  }
+  .footer-card .pricing-link {
+    font-size: 2.66vw;
+  }
+  .footer-card .get-started-button {
+    font-weight: 600;
+    padding: 1.9vw 4.5vw;
+  }
 }
 
 /*# sourceMappingURL=new_features.css.map */
