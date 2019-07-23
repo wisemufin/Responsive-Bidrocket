@@ -326,6 +326,34 @@
         <a href="https://launch.bidrocket.com/signup" class="get-started-button">START USING BID ROCKET TODAY</a>
       </span>
     </div>
+    <footer>
+      <div class="footer-logo">
+        <img src="resources/assets/logo/color.svg" alt="">
+      </div>
+      <!-- BIDROCKET HEADING IN FOOTER -->
+      <div class="footer-menu-column-bidrocket">
+        <p class="footer-menu-header" style="color: #F04C23">BIDROCKET</p>
+        <p class="footer-menu-item"><a href="#">About Us</a></p>
+        <p class="footer-menu-item"><a href="#">Product Features</a></p>
+        <p class="footer-menu-item"><a href="#">Pricing</a></p>
+      </div>
+
+      <!-- SUPPORT HEADING IN FOOTER -->
+      <div class="footer-menu-column-support">
+        <p class="footer-menu-header" style="color: #F2B031">SUPPORT</p>
+        <p class="footer-menu-item"><a href="#">Get Help</a></p>
+        <p class="footer-menu-item"><a href="#">FAQ</a></p>
+        <p class="footer-menu-item"><a href="#">Contact Support</a></p>
+      </div>
+
+      <!-- COMPANY HEADING IN FOOTER -->
+      <div class="footer-menu-column-company">
+        <p class="footer-menu-header" style="color: #01435C">COMPANY</p>
+        <p class="footer-menu-item"><a href="#">Terms of Service</a></p>
+        <p class="footer-menu-item"><a href="#">Privacy Statement</a></p>
+        <p class="footer-menu-item" id="special" style="visibility: hidden"><a href="#">Privacy Statement</a></p>
+      </div>
+    </footer>
   </div>
 
     <script type="text/javascript">
@@ -338,10 +366,11 @@
     }
 
     // NAV BAR HIDE ON SCROLL SCRIPT
+    var width = window.innerWidth;
     var prevScrollpos = window.pageYOffset;
     window.onscroll = function() {
       var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos || currentScrollPos === 0) {
+      if (prevScrollpos > currentScrollPos && width > 992px) {
         document.getElementById("navbar").style.top = "0";
       } else {
         document.getElementById("navbar").style.top = "-100px";

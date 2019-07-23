@@ -1,0 +1,17 @@
+<div class="item-container">
+  <div class="feature-item">
+    <img src="resources/assets/features-icons/credit-card.svg" alt="">
+    <h2>Event Dashboard</h2>
+    <h3>
+      Reach out to us using the chat bot below or send an inquiry to
+      sales@bidrocket.com and we would be happy to find the right price for
+      your organization.
+    </h3>
+    <!--<h3>
+      We only charge 3% of credit card transactions, capping at $4,500.
+      Cash, check and other transactions made without a credit card are not
+      subject to the 3% fee.
+    </h3>-->
+  </div>
+</div>
+<a href="https://launch.bidrocket.com/signup">GET STARTED TODAY</a>
