@@ -562,73 +562,6 @@ nav span a:hover {
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .hero-image {
-    margin-bottom: 130px;
-    height: 54vw;
-  }
-
-  .hero-text {
-    width: 90%;
-  }
-
-  .hero-text h1 {
-    font-size: 6.5vw;
-  }
-
-  .hero-card h2 {
-    font-size: 5vw;
-  }
-
-  .hero-card h3 {
-    width: 85%;
-    font-size: 2.8vw;
-    line-height: 3.5vw;
-  }
-
-  .hero-card a {
-    height: 5.5vw;
-    width: 40%;
-    font-size: 2.2vw;
-  }
-
-  .included-features h1 {
-    font-size: 5.5vw;
-    width: 50%;
-  }
-
-  .feature-listing-container {
-    width: 70%;
-    margin: 0 auto;
-  }
-
-  .feature-listing {
-    align-items: center;
-    width: 40%;
-    margin-bottom: 20px;
-  }
-
-  .feature-listing img {
-    height: 5vw;
-    width: 5vw;
-  }
-
-  .feature-listing h3 {
-    font-size: 3vw;
-  }
-
-  .feature-listing h4 {
-    font-size: 2.5vw;
-    line-height: 3vw;
-    text-align: center;
-  }
-
-  #phone-icon {
-    height: 5vw;
-    width: 4vw;
-  }
-}
-
 /* FOOTER */
 .footer-background {
   background-image: url(../../resources/assets/backgrounds/compressed-features-footer.png);
@@ -827,6 +760,111 @@ nav span a:hover {
     border-radius: 4px;
     letter-spacing: .5px;
     text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-image {
+    margin-bottom: 130px;
+    height: 54vw;
+  }
+
+  .hero-text {
+    width: 90%;
+  }
+
+  .hero-text h1 {
+    font-size: 6.5vw;
+  }
+
+  .hero-card h2 {
+    font-size: 5vw;
+  }
+
+  .hero-card h3 {
+    width: 85%;
+    font-size: 2.8vw;
+    line-height: 3.5vw;
+  }
+
+  .hero-card a {
+    height: 5.5vw;
+    width: 40%;
+    font-size: 2.2vw;
+  }
+
+  .included-features h1 {
+    font-size: 5.5vw;
+    width: 50%;
+  }
+
+  .feature-listing-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .feature-listing {
+    align-items: center;
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .feature-listing img {
+    height: 5vw;
+    width: 5vw;
+  }
+
+  .feature-listing h3 {
+    font-size: 3vw;
+  }
+
+  .feature-listing h4 {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    text-align: center;
+  }
+
+  #phone-icon {
+    height: 5vw;
+    width: 4vw;
+  }
+
+  .get-started-button {
+    height: 5.5vw;
+    width: 40%;
+    font-size: 2.2vw;
+  }
+
+  .footer-rockets {
+    visibility: hidden;
+    width: 55.694vw;
+  }
+
+  .yellow-header {
+    font-size: 5.5vw;
+    line-height: 5.8vw;
+    width: 90%;
+  }
+
+  .footer-card {
+    width: 90%;
+    height: 43vw;
+  }
+
+  .footer-card h1 {
+    line-height: 5.5vw;
+    font-size: 5.5vw;
+    width: 95%;
+  }
+
+  .footer-card h2 {
+    width: 90%;
+    font-size: 3vw;
+    line-height: 3.5vw;
+  }
+
+  .pricing-link {
+    font-size: 3vw;
   }
 }
 
